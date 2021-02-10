@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(13,5,245);
+    background: radial-gradient(circle, rgba(13,5,245,0.9332107843137255) 0%, rgba(252,70,70,1) 100%);
+}
+
+nav li a{
+    color: white;
+}
+
+section{
+    background-color: (13,5,245,0.9332107843137255);
+}
+
+section p{
+    background-color: rgb(133, 104, 104);
+    margin: 10%;
+    margin-top: 6%;
+    padding: 20px;
+    color: white;
+}
+
+footer{
+    background: rgb(13,5,245);
+    background: radial-gradient(circle, rgba(13,5,245,0.9332107843137255) 0%, rgba(252,70,70,1) 100%);
+    color: white;
+    font-size: 26px;
+}
