@@ -1,0 +1,169 @@
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+/* Div1 */
+
+#div1{
+    background-color: rgba(26, 26, 214, 0.904);
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+}
+
+#div1 div a{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div1 div img{
+    margin-top: 70px;
+    border-radius: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div1 p{
+    padding: 25px;
+}
+
+/* Div2 */
+
+#div2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#div2 div #marginTop{
+    margin-top: 60px;
+}
+
+#div2 div #div2text{
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#div2 div .circle{
+    position:absolute;
+    width:200px;
+    height: 200px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity:0.6;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#div2 div #second{
+    position:relative;
+    left:150px;
+    background: rgb(235, 54, 54);
+}
+
+#div2 div #first {
+    background: rgb(0, 0, 172);
+}
+
+#div2 div #third {
+    position: relative; 
+    top: -115px;
+    left: 75px;
+    background: rgb(51, 197, 51);
+}
+
+#div2 div #problem{
+    font-size: 8pt;
+    color:white;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-left:2px solid red;
+    border-top:2px solid red;
+    top : 41px;
+    left:71px;
+    z-index:-4;
+    background:red;
+}
+
+#div2 div #problem:after{
+    position:absolute;
+    content:" ";
+    background:white;
+    width:200px;
+    height:200px;
+    top:-2px;
+    left: -2px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    z-index:-3;
+}
+
+.divCenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Div 3 */
+
+#div3{
+    background-color: rgba(26, 26, 214, 0.904);
+    color: white;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#div3 div h3{
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+#div3 div img{
+    padding: 30px;
+}
+
+#div3 div p{
+    padding: 20px;
+}
+
+#div3 div h6{
+    padding: 50px;
+}
+
+#border{
+    height: 10px;
+    border-bottom: white 1px solid;
+}
+
+/* Div4 */
+#div4{
+    background-image: url(https://i.ibb.co/7KQjc7M/teget-bgd.png);
+    color: white;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#div4 div h3{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#div4 div p{
+    padding: 35px;
+}
+
+/* Div 5 */
+
+#div5 p{
+    color: darkslategrey;
+    padding: 20px;
+}
+
+#div5 span{
+    font-size: 50px;
+    color: black;
+}
